@@ -1,0 +1,55 @@
+:root {
+    --header-height: 106px;
+    --padding-main: 30px;
+    --text-color: #ac7b00;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #000;
+}
+
+/* Animation */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transition: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes specialFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.pl-200 {
+    padding-left: 100px;
+}
