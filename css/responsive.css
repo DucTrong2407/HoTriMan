@@ -222,6 +222,26 @@
     .news-banner__item.ss_big img {
         height: 400px;
     }
+    .banner {
+        height: 500px;
+    }
+
+    .banner-fill {
+        display: block;
+        margin: 10px;
+    }
+
+    .banner-img {
+        width: 300px;
+    }
+
+    .banner-img .banner-name {
+        font-size: 40px;
+    }
+
+    .banner-img .banner-title {
+        font-size: 24px;
+    }
 
     /* Content */
     .content {
