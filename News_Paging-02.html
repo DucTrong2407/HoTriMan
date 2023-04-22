@@ -172,28 +172,6 @@
                 //Burger Animation
                 bars.classList.toggle("toggle");
             };
-
-            // Show images
-            showImg = document.querySelector(".show-img__container");
-
-            document.querySelectorAll(".project-item .project-img").forEach((image) => {
-                image.onclick = () => {
-                    document.querySelector(".show-img").style.display = "block";
-                    document.querySelector(".show-img img").src = image.getAttribute("src");
-                };
-            });
-
-            document.querySelector(".show-img span").onclick = () => {
-                document.querySelector(".show-img").style.display = "none";
-            };
-
-            document.querySelector(".show-img").onclick = () => {
-                document.querySelector(".show-img").style.display = "none";
-            };
-
-            showImg.addEventListener("click", function (event) {
-                event.stopPropagation();
-            });
         </script>
     </body>
 </html>
